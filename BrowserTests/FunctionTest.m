@@ -17,6 +17,7 @@
 {
     /* the basic operations of the browser like clean the url, go to the specified
      website, move backward, move forward.
+	 addsome content just for test01_BasicWorkfllows
      */
     //init
     [tester waitForTimeInterval:1];
