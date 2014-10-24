@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebViewController.h"
+#import "BookmarkViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate,BookmarkDelegate,WebViewDelegate>
+{
+}
+
+@property (nonatomic,retain) UIScrollView * myScrollView;
+@property (nonatomic,retain) WebViewController * myWebView;
+@property (nonatomic,retain) BookmarkViewController * myBookmarkView;
 
 @end

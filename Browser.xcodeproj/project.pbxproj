@@ -22,9 +22,51 @@
 		9BD650A319F4A2090096441A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD6508219F4A2090096441A /* UIKit.framework */; };
 		9BD650AB19F4A2090096441A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BD650A919F4A2090096441A /* InfoPlist.strings */; };
 		9BD650AD19F4A2090096441A /* BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD650AC19F4A2090096441A /* BrowserTests.m */; };
+		9BD650B819F4AA240096441A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD650B719F4AA240096441A /* WebViewController.m */; };
+		9BD650BB19F4AA3C0096441A /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD650BA19F4AA3C0096441A /* BookmarkViewController.m */; };
+		9BD650C019F4FF1A0096441A /* Bookmark.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BD650BF19F4FF1A0096441A /* Bookmark.plist */; };
+		9BD650C219F670C00096441A /* go.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD650C119F670C00096441A /* go.png */; };
+		9BD650C419F9027C0096441A /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD650C319F9027C0096441A /* libKIF.a */; };
+		9BD650C519F902850096441A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD6508019F4A2090096441A /* CoreGraphics.framework */; };
+		9BD650C819F90DF90096441A /* FunctionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD650C719F90DF90096441A /* FunctionTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9BA8282319FA511F00FB16A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA8281A19FA511E00FB16A0 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
+			remoteInfo = KIF;
+		};
+		9BA8282519FA511F00FB16A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA8281A19FA511E00FB16A0 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB72047C1680DDAD00278DA2;
+			remoteInfo = "KIF-OCUnit";
+		};
+		9BA8282719FA511F00FB16A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA8281A19FA511E00FB16A0 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
+			remoteInfo = "Test Host";
+		};
+		9BA8282919FA511F00FB16A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA8281A19FA511E00FB16A0 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
+			remoteInfo = "KIF Tests";
+		};
+		9BA8282B19FA511F00FB16A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA8281A19FA511E00FB16A0 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECEB177F8DB3005A041A;
+			remoteInfo = "KIF Tests-OCUnit";
+		};
 		9BD650A419F4A2090096441A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BD6507319F4A2090096441A /* Project object */;
@@ -35,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9BA8281A19FA511E00FB16A0 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = Frameworks/KIF/KIF.xcodeproj; sourceTree = "<group>"; };
 		9BD6507B19F4A2090096441A /* Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD6507E19F4A2090096441A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BD6508019F4A2090096441A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +98,15 @@
 		9BD650A819F4A2090096441A /* BrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrowserTests-Info.plist"; sourceTree = "<group>"; };
 		9BD650AA19F4A2090096441A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BD650AC19F4A2090096441A /* BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserTests.m; sourceTree = "<group>"; };
+		9BD650B619F4AA240096441A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9BD650B719F4AA240096441A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9BD650B919F4AA3C0096441A /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookmarkViewController.h; path = ../BookmarkViewController.h; sourceTree = "<group>"; };
+		9BD650BA19F4AA3C0096441A /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookmarkViewController.m; path = ../BookmarkViewController.m; sourceTree = "<group>"; };
+		9BD650BF19F4FF1A0096441A /* Bookmark.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bookmark.plist; sourceTree = "<group>"; };
+		9BD650C119F670C00096441A /* go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go.png; sourceTree = "<group>"; };
+		9BD650C319F9027C0096441A /* libKIF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKIF.a; path = "../KIF/build/Debug-iphoneos/libKIF.a"; sourceTree = "<group>"; };
+		9BD650C619F90DF90096441A /* FunctionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionTest.h; sourceTree = "<group>"; };
+		9BD650C719F90DF90096441A /* FunctionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD650C519F902850096441A /* CoreGraphics.framework in Frameworks */,
+				9BD650C419F9027C0096441A /* libKIF.a in Frameworks */,
 				9BD650A119F4A2090096441A /* XCTest.framework in Frameworks */,
 				9BD650A319F4A2090096441A /* UIKit.framework in Frameworks */,
 				9BD650A219F4A2090096441A /* Foundation.framework in Frameworks */,
@@ -81,9 +135,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BA8281B19FA511E00FB16A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA8282419FA511F00FB16A0 /* libKIF.a */,
+				9BA8282619FA511F00FB16A0 /* libKIF-OCUnit.a */,
+				9BA8282819FA511F00FB16A0 /* Test Host.app */,
+				9BA8282A19FA511F00FB16A0 /* KIF Tests - XCTest.xctest */,
+				9BA8282C19FA511F00FB16A0 /* KIF Tests-OCUnit.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9BD6507219F4A2090096441A = {
 			isa = PBXGroup;
 			children = (
+				9BA8281A19FA511E00FB16A0 /* KIF.xcodeproj */,
 				9BD6508419F4A2090096441A /* Browser */,
 				9BD650A619F4A2090096441A /* BrowserTests */,
 				9BD6507D19F4A2090096441A /* Frameworks */,
@@ -103,6 +170,7 @@
 		9BD6507D19F4A2090096441A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BD650C319F9027C0096441A /* libKIF.a */,
 				9BD6507E19F4A2090096441A /* Foundation.framework */,
 				9BD6508019F4A2090096441A /* CoreGraphics.framework */,
 				9BD6508219F4A2090096441A /* UIKit.framework */,
@@ -120,6 +188,10 @@
 				9BD6509319F4A2090096441A /* Main_iPad.storyboard */,
 				9BD6509619F4A2090096441A /* ViewController.h */,
 				9BD6509719F4A2090096441A /* ViewController.m */,
+				9BD650B619F4AA240096441A /* WebViewController.h */,
+				9BD650B719F4AA240096441A /* WebViewController.m */,
+				9BD650B919F4AA3C0096441A /* BookmarkViewController.h */,
+				9BD650BA19F4AA3C0096441A /* BookmarkViewController.m */,
 				9BD6509919F4A2090096441A /* Images.xcassets */,
 				9BD6508519F4A2090096441A /* Supporting Files */,
 			);
@@ -129,10 +201,12 @@
 		9BD6508519F4A2090096441A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BD650C119F670C00096441A /* go.png */,
 				9BD6508619F4A2090096441A /* Browser-Info.plist */,
 				9BD6508719F4A2090096441A /* InfoPlist.strings */,
 				9BD6508A19F4A2090096441A /* main.m */,
 				9BD6508C19F4A2090096441A /* Browser-Prefix.pch */,
+				9BD650BF19F4FF1A0096441A /* Bookmark.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +216,8 @@
 			children = (
 				9BD650AC19F4A2090096441A /* BrowserTests.m */,
 				9BD650A719F4A2090096441A /* Supporting Files */,
+				9BD650C619F90DF90096441A /* FunctionTest.h */,
+				9BD650C719F90DF90096441A /* FunctionTest.m */,
 			);
 			path = BrowserTests;
 			sourceTree = "<group>";
@@ -218,6 +294,12 @@
 			mainGroup = 9BD6507219F4A2090096441A;
 			productRefGroup = 9BD6507C19F4A2090096441A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9BA8281B19FA511E00FB16A0 /* Products */;
+					ProjectRef = 9BA8281A19FA511E00FB16A0 /* KIF.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9BD6507A19F4A2090096441A /* Browser */,
@@ -226,15 +308,55 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9BA8282419FA511F00FB16A0 /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = 9BA8282319FA511F00FB16A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BA8282619FA511F00FB16A0 /* libKIF-OCUnit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKIF-OCUnit.a";
+			remoteRef = 9BA8282519FA511F00FB16A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BA8282819FA511F00FB16A0 /* Test Host.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Test Host.app";
+			remoteRef = 9BA8282719FA511F00FB16A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BA8282A19FA511F00FB16A0 /* KIF Tests - XCTest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests - XCTest.xctest";
+			remoteRef = 9BA8282919FA511F00FB16A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BA8282C19FA511F00FB16A0 /* KIF Tests-OCUnit.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests-OCUnit.octest";
+			remoteRef = 9BA8282B19FA511F00FB16A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		9BD6507919F4A2090096441A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD650C019F4FF1A0096441A /* Bookmark.plist in Resources */,
 				9BD6509519F4A2090096441A /* Main_iPad.storyboard in Resources */,
 				9BD6509A19F4A2090096441A /* Images.xcassets in Resources */,
 				9BD6509219F4A2090096441A /* Main_iPhone.storyboard in Resources */,
 				9BD6508919F4A2090096441A /* InfoPlist.strings in Resources */,
+				9BD650C219F670C00096441A /* go.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +376,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD6509819F4A2090096441A /* ViewController.m in Sources */,
+				9BD650BB19F4AA3C0096441A /* BookmarkViewController.m in Sources */,
 				9BD6508F19F4A2090096441A /* AppDelegate.m in Sources */,
 				9BD6508B19F4A2090096441A /* main.m in Sources */,
+				9BD650B819F4AA240096441A /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD650AD19F4A2090096441A /* BrowserTests.m in Sources */,
+				9BD650C819F90DF90096441A /* FunctionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Browser/Browser-Prefix.pch";
 				INFOPLIST_FILE = "Browser/Browser-Info.plist";
@@ -403,6 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Browser/Browser-Prefix.pch";
 				INFOPLIST_FILE = "Browser/Browser-Info.plist";
@@ -425,8 +552,19 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"KIF_XCTEST=1",
 				);
 				INFOPLIST_FILE = "BrowserTests/BrowserTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/piht/Desktop/KIF/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -444,7 +582,18 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Browser/Browser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "KIF_XCTEST=1";
 				INFOPLIST_FILE = "BrowserTests/BrowserTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/piht/Desktop/KIF/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -470,6 +619,7 @@
 				9BD650B219F4A2090096441A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BD650B319F4A2090096441A /* Build configuration list for PBXNativeTarget "BrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +628,7 @@
 				9BD650B519F4A2090096441A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
